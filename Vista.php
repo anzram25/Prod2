@@ -15,7 +15,7 @@
 			imagestring($this->img, 15, 270, 65, "1", $this->negro);
 			imagestring($this->img, 15, 325, 110, "2", $this->negro);		
 			imagestring($this->img, 15, 350, 195, "3", $this->negro);	
-			imagestring($this->img, 15, 325, 270, "4", $this->negro);	
+			imagestring($this->img, 15, 325, 270, "4", $this->negro);	 
 			imagestring($this->img, 15, 270, 325, "5", $this->negro);	
 			imagestring($this->img, 15, 195, 345, "6", $this->negro);	
 			imagestring($this->img, 15, 125, 325, "7", $this->negro);	

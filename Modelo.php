@@ -7,7 +7,7 @@
 		public $hora, $min, $seg;
 		public function __construct($h, $m, $s, $ancho, $alto){
 			$this->hora = $h;
-			$this->min = $m;
+			$this->min = $m;      
 			$this->seg = $s;
 			$this->ancho = $ancho;
 			$this->alto = $alto;
