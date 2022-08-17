@@ -1,5 +1,4 @@
 <?php
-	// Vista.php
 	class Vista {
 		public $img;
 		public $blanco, $negro, $verdeclaro, $rojo;
@@ -55,14 +54,6 @@
 				imagesetthickness($this->img, 5);
 				imageline($this->img, $modelo->centrox, $modelo->centroy, $modelo->arrptosint[$modelo->hora*5-15]->x, $modelo->arrptosint[$modelo->hora*5-15]->y, $this->negro);
 			}
-			/*if($modelo->hora>14 && $modelo->hora<60){
-				imagesetthickness($this->img, 3);
-				imageline($this->img, $modelo->centrox, $modelo->centroy, $modelo->arrptosint[$modelo->hora*5(-15)]->x, $modelo->arrptosint[$modelo->hora*5(-15)]->y, $this->negro);											
-			}
-			if($modelo->hora>=0 && $modelo->hora<15){
-				imagesetthickness($this->img, 3);
-				imageline($this->img, $modelo->centrox, $modelo->centroy, $modelo->arrptosint[$modelo->5*(hora)+45]->x, $modelo->arrptosint[$modelo->5*(hora)+45]->y, $this->negro);											
-			}*/
 			imagepng($this->img);
 			imagedestroy($this->img);
 		}
