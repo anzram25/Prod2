@@ -1,6 +1,5 @@
 <?php
-	// Modelo.php 
-	class Modelo {	// Reloj
+	class Modelo {	
 		public $ancho, $alto;
 		public $centrox, $centroy, $radio;
 		public $arrptosext, $arrptosint;
