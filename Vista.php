@@ -26,13 +26,11 @@
 			imagefilledellipse($this->img, $modelo->centrox, $modelo->centroy, $modelo->ancho-390, $modelo->alto-390, $this->negro);		
 			for($i=0; $i<60; $i++){
 				if($i%5==0){
-					//imagesetthickness(resource $image, int $thickness): bool
 					imagesetthickness($this->img, 3);
 					imageline($this->img, $modelo->arrptosext[$i]->x, $modelo->arrptosext[$i]->y, $modelo->arrptosint[$i]->x, $modelo->arrptosint[$i]->y, $this->rojo);											
 				}
 				else{
 					imagesetthickness($this->img, 1);
-					//imageline($this->img, $modelo->arrptosext[$i]->x, $modelo->arrptosext[$i]->y, $modelo->arrptosint[$i]->x, $modelo->arrptosint[$i]->y, $this->negro);
 					imagefilledellipse($this->img, $modelo->arrptosext[$i]->x, $modelo->arrptosext[$i]->y, 5, 5, $this->negro);
 				}
 			}
