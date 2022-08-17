@@ -1,5 +1,5 @@
 <?php
-	//http://localhost/producto%202/index.php?h=7&m=20&s=11
+	//http://localhost:8080/Prod2/index.php?h=7&m=20&s=11
 	header("Content-type: image/png");
 	require_once("Punto.php");
 	require_once("Modelo.php");
